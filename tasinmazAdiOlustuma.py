@@ -6,8 +6,7 @@ class tasinmazAdi():
         self.parselNo = parselNo
 
         if adaNo != 0:
-            self.tasinmazAdi = (ilceAdi + " İlçesi, " + mahalleAdi + " Mahallesi, " + str(adaNo) + " Ada " + str(parselNo) + " Parsel")
+            self.olusanTasinmazAdi = (ilceAdi + " İlçesi, " + mahalleAdi + " Mahallesi, " + str(adaNo) + " Ada " + str(
+                parselNo) + " Parsel")
         else:
-            self.tasinmazAdi = (ilceAdi + " İlçesi, " + mahalleAdi + " Mahallesi, " + str(parselNo) + " Parsel")
-
-        print(self.tasinmazAdi)
+            self.olusanTasinmazAdi = (ilceAdi + " İlçesi, " + mahalleAdi + " Mahallesi, " + str(parselNo) + " Parsel")
